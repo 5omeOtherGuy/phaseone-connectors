@@ -1,5 +1,14 @@
 # phaseone-connectors
 
+**Archived 2026-10-12.** The connectors live in phaseone again, under
+[`connectors/`](https://github.com/5omeOtherGuy/phaseone/tree/main/connectors), with this
+repository's history kept by a subtree merge
+([phaseone#927](https://github.com/5omeOtherGuy/phaseone/pull/927), ADR-0217 of
+[phaseone#924](https://github.com/5omeOtherGuy/phaseone/issues/924)). A connector change is a
+phaseone pull request; a third party's module still builds with the module SDK and installs by
+digest. The text below describes the repository as it was.
+
+
 The subscription connectors for [p1](https://github.com/5omeOtherGuy/phaseone): the routes,
 logins and usage probes that reach the Claude Code and Codex subscriptions, OpenCode Zen and Go,
 ClinePass, and the GLM and Kimi coding plans. They are p1 module packages built with p1's module
